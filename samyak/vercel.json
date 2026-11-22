@@ -1,0 +1,9 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/:page(index|about|services|work|contact|careers).html", "destination": "/:page/", "permanent": true },
+    { "source": "/clients.html", "destination": "/brand-family/", "permanent": true },
+    { "source": "/clients", "destination": "/brand-family/", "permanent": true }
+  ]
+}
